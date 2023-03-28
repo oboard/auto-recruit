@@ -1,8 +1,8 @@
 // api/proxy.js
 // 该服务为 vercel serve跨域解决
-const { createProxyMiddleware } = require('http-proxy-middleware');
+import { createProxyMiddleware } from 'http-proxy-middleware';
 
-module.exports = (req, res) => {
+export default proxy = (req, res) => {
     let target = ''
     // 代理指标地址
     // 这里应用 backend 次要用于辨别 vercel serverless 的 api 门路
