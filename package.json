@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
     "vue": "^3.2.45",
     "vue-qr": "^4.0.9"
   },
